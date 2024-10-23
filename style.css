@@ -6,10 +6,9 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
     padding: 20px;
-    text-align: center;
+            border-bottom: 2px solid #ff007f;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
 }
 
 .grid-container {
@@ -42,4 +41,15 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+}
+
+.coolers{
+    display: grid;
+    justify-content: center;
+}
+
+.titulo-principal{
+    font-size: 3em;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #ff007f;
+
 }
