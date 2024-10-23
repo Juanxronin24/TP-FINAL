@@ -19,13 +19,17 @@ header {
 }
 
 .grid-item {
-    background: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
+    background: linear-gradient(145deg, #1e1e2f, #3b3b5c); /* Fondo en degradado oscuro */
+    border: 2px solid #ff4081; /* Borde color neón */
+    border-radius: 10px; /* Esquinas más redondeadas */
+    padding: 20px; /* Espacio interno aumentado */
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1); /* Sombras con efecto 3D */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transición suave para transformaciones */
+    color: #ffffff; /* Color de texto blanco para mayor contraste */
+    font-weight: bold; /* Negrita para resaltar el texto */
 }
+
 
 .grid-item img {
     max-width: 100%;
@@ -53,3 +57,10 @@ footer {
     text-shadow: 0 0 10px #00ffcc, 0 0 20px #ff007f;
 
 }
+
+.grid-item:hover {
+    transform: scale(1.05); /* Efecto de ampliación al pasar el mouse */
+    box-shadow: 0 0 30px rgba(255, 64, 129, 0.8), 0 0 40px rgba(0, 255, 255, 0.6); /* Sombras intensificadas en hover */
+    background: linear-gradient(145deg, #2b2b3d, #4a4a72); /* Cambio de fondo en hover para mayor impacto */
+}
+
