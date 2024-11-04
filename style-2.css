@@ -4,13 +4,14 @@ body {
     background-color: rgb(194, 190, 186);
 }
 
-header{
+header {
 
     background-color: rgb(179, 168, 189);
 
 
 
 }
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -22,6 +23,8 @@ header{
 }
 
 .grid-item {
+
+
     background: linear-gradient(145deg, #1e1e2f, #3b3b5c);
     /* Fondo en degradado oscuro */
     border: 2px solid #ff4081;
@@ -42,50 +45,24 @@ header{
     font-weight: bold;
     /* Negrita para resaltar el texto */
     position: relative;
-    /* Para el efecto de pseudo-elemento */
 }
 
-.grid-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+
+footer {
+
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
 
-.grid-item h2 {
-    font-size: 18px;
-    margin: 10px 0 5px;
-}
 
-.grid-item p {
-    font-size: 14px;
-    color: cadetblue;
-}
 
-.grid-item span {
-    font-weight: bold;
-    color: #4CAF50;
-}
 
-.grid-item button {
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
 
-.grid-item button:hover {
-    background-color: #45a049;
-}
-
-@media (max-width: 600px) {
-    .grid-container {
-        grid-template-columns: 1fr;
-        /* Una columna en pantallas pequeñas */
-    }
-}
 
 
 .Placas-madre {
@@ -143,18 +120,46 @@ header{
 
 }
 
-.Placas-madre:hover{
+.Placas-madre:hover {
 
-    transform: scale(1.05); /* Efecto de escala al pasar el ratón */
-    color: #ffffff; /* Cambiar color del texto en hover */
-    box-shadow: 0 0 20px rgba(0, 255, 255, 1); /* Efecto de resplandor */
+    transform: scale(1.05);
+    /* Efecto de escala al pasar el ratón */
+    color: #ffffff;
+    /* Cambiar color del texto en hover */
+    box-shadow: 0 0 20px rgba(0, 255, 255, 1);
+    /* Efecto de resplandor */
 
 
 
 }
 
-.Placas-madre:hover::before{
+.Placas-madre:hover::before {
 
-        opacity: 0,2;
+    opacity: 0, 2;
 
+}
+
+.payment-methods {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Centrar los íconos */
+    margin-top: 20px;
+    /* Espacio superior */
+}
+
+.payment-methods img {
+    width: 50px;
+    /* Ajusta el tamaño según sea necesario */
+    margin: 5px;
+    /* Espacio entre íconos */
+}
+
+.payment-methods h2 {
+    font-size: 1.5em;
+    /* Tamaño de fuente del título */
+    margin-bottom: 10px;
+    /* Espacio inferior */
+    color: #ff4081;
+    /* Color llamativo para el título */
 }
