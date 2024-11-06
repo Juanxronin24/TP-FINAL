@@ -1,7 +1,142 @@
-body{
-
-    font-family: Arial, sans-serif;
+body {
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    background-color: rgb(194, 190, 186);
+}
+
+header {
+
+    background-color: rgb(179, 168, 189);
+
+
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    /* Columnas flexibles */
+    gap: 20px;
+    /* Espacio entre los elementos */
+    padding: 20px;
+    /* Espacio interno del contenedor */
+}
+
+.grid-item {
+
+
+    background: linear-gradient(145deg, #1e1e2f, #3b3b5c);
+    /* Fondo en degradado oscuro */
+    border: 2px solid #ff4081;
+    /* Borde color neón */
+    border-radius: 15px;
+    /* Esquinas más redondeadas */
+    padding: 20px;
+    /* Espacio interno aumentado */
+    text-align: center;
+    box-shadow:
+        5px 5px 20px rgba(0, 0, 0, 0.3),
+        -5px -5px 20px rgba(255, 255, 255, 0.1);
+    /* Sombras con efecto 3D */
+    transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+    /* Transición suave para transformaciones */
+    color: #ffffff;
+    /* Color de texto blanco para mayor contraste */
+    font-weight: bold;
+    /* Negrita para resaltar el texto */
+    position: relative;
+}
+
+.grid-item:hover {
+
+    transform: scale(1.05);
+
+}
+
+
+footer {
+
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #534b4b;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.Memorias-ram {
+
+
+    display: grid;
+    justify-content: center;
+    font-size: 2.5em;
+    /* Tamaño de fuente grande */
+    font-weight: bold;
+    /* Negrita para mayor impacto */
+    color: #00ffcc;
+    /* Color vibrante de estilo ciberpunk */
+    text-shadow:
+        2px 2px 5px rgba(0, 0, 0, 0.7),
+        0 0 25px rgba(0, 255, 255, 0.5);
+    /* Sombra de texto intensa */
+    letter-spacing: 3px;
+    /* Espaciado entre letras más amplio */
+    margin: 20px 0;
+    /* Espacio arriba y abajo */
+    padding: 10px;
+    /* Espacio interno */
+    background: linear-gradient(90deg, #1e1e2f, #3b3b5c);
+    /* Fondo oscuro con degradado */
+    border: 2px solid #00ffcc;
+    /* Borde que resalta */
+    border-radius: 10px;
+    /* Esquinas redondeadas */
+    transition: transform 0.3s, color 0.3s, box-shadow 0.3s;
+    /* Transiciones suaves */
+    position: relative;
+    /* Para efectos adicionales */
+}
+
+
+
+
+.Memorias-ram::before {
+
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    /* Mantener esquinas redondeadas */
+    background: rgba(0, 255, 255, 0.1);
+    /* Capa de resplandor */
+    opacity: 0;
+    transition: opacity 0.3s;
+    /* Transición suave para la opacidad */
+
+
+
+
+
+}
+
+.Memorias-ram:hover{
+
+    transform: scale(1.05);
+    /* Efecto de escala al pasar el ratón */
+    color: #ffffff;
+    /* Cambiar color del texto en hover */
+    box-shadow: 0 0 20px rgba(0, 255, 255, 1);
+    /* Efecto de resplandor */
+
+}
+
+.Memorias-ram:hover::before{
+
+
+    opacity: 0, 2;
+
 }
