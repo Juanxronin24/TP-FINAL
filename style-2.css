@@ -45,6 +45,7 @@ header {
     font-weight: bold;
     /* Negrita para resaltar el texto */
     position: relative;
+    width: 70%;
 }
 
 .grid-item img {
