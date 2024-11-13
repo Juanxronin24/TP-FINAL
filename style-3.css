@@ -151,3 +151,23 @@ footer {
     opacity: 0, 2;
 
 }
+
+
+
+.payment-methods {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar los íconos */
+    margin-top: 20px; /* Espacio superior */
+}
+
+.payment-methods img {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    margin: 5px; /* Espacio entre íconos */
+}
+
+.payment-methods h2 {
+    font-size: 1.5em; /* Tamaño de fuente del título */
+    margin-bottom: 10px; /* Espacio inferior */
+    color: #ff4081; /* Color llamativo para el título */
+}
