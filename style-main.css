@@ -65,7 +65,7 @@ footer {
 .titulo-secundario {
     font-size: 3em;
     text-shadow: 0 0 10px #00ffcc, 0 0 20px #ff007f;
-
+    
 
 }
 
@@ -101,5 +101,81 @@ footer {
 
 .presentation-text a:hover {
     text-decoration: underline;  /* Subrayado solo cuando el cursor pase por encima */
+}
+
+
+footer {
+    background-color: #333333;  /* Fondo oscuro para el footer */
+    color: #fff;  /* Texto blanco para el contraste */
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-socials h3 {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    color: #1d8c8c;  /* Color llamativo para el título */
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 1.5rem;  /* Tamaño grande para los iconos */
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.social-links a i {
+    margin-right: 8px;  /* Espaciado entre el icono y el texto */
+}
+
+.social-links a:hover {
+    color: #1d8c8c;  /* Cambio de color al pasar el ratón */
+    transform: translateY(-5px);  /* Efecto sutil de movimiento */
+}
+
+.social-icon {
+    border-radius: 50%;
+    padding: 12px;
+    background-color: #444444;  /* Fondo gris oscuro para los iconos */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.social-icon:hover {
+    background-color: #1d8c8c;  /* Fondo resaltado en hover */
+    transform: scale(1.1);  /* Efecto de agrandar el icono */
+}
+
+.footer-info {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+}
+
+.footer-info p {
+    margin: 0;
 }
 
