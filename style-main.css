@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 2px solid #ff007f;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+}
+
+.Titulo-principal {
+    font-size: 3em;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #ff007f;
+
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
