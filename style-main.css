@@ -26,3 +26,80 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+.back-button {
+    display: inline-block;
+    /* Hacer que el enlace se comporte como un bloque */
+    padding: 12px 24px;
+    /* Espaciado interno del botón */
+    background-color: #4CAF50;
+    /* Color de fondo verde */
+    color: white;
+    /* Color de texto blanco */
+    font-size: 16px;
+    /* Tamaño de la fuente */
+    text-decoration: none;
+    /* Quitar el subrayado del enlace */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    transition: background-color 0.3s, transform 0.3s;
+    /* Efecto de transición suave */
+}
+
+/* Estilo al pasar el ratón (hover) */
+.back-button:hover {
+    background-color: #45a049;
+    /* Cambiar a un verde más oscuro */
+    transform: translateY(-2px);
+    /* Desplazamiento hacia arriba para un efecto de elevación */
+}
+
+/* Estilo al hacer clic (active) */
+.back-button:active {
+    background-color: #388e3c;
+    transform: translateY(0);
+}
+
+.titulo-secundario {
+    font-size: 3em;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #ff007f;
+
+
+}
+
+.presentation-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.1rem;  /* Un tamaño de fuente adecuado para la lectura */
+    line-height: 1.8;  /* Espaciado entre líneas para mejorar la legibilidad */
+    color: #333333;  /* Color oscuro para el texto */
+    text-align: justify;  /* Alineación justificada para un formato limpio */
+    margin: 20px auto;  /* Márgenes superiores e inferiores */
+    padding: 15px;  /* Espaciado interno */
+    background-color: #f4f4f4;  /* Fondo suave para un contraste suave con el texto */
+    border-radius: 8px;  /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Sombra sutil para darle profundidad */
+    max-width: 900px;  /* Ancho máximo para evitar que el texto se extienda demasiado */
+    font-weight: 400;
+}
+
+.presentation-text b {
+    color: #1d8c8c;  /* Resaltar en verde azulado las palabras clave */
+    font-weight: 600;  /* Hacer negrita para las partes más importantes */
+}
+
+.presentation-text i {
+    font-style: italic;  /* Italicas para enfatizar algunas ideas */
+}
+
+.presentation-text a {
+    color: #0066cc;  /* Color atractivo para enlaces */
+    text-decoration: none;  /* Quitar el subrayado por defecto */
+    font-weight: bold;  /* Destacar los enlaces */
+}
+
+.presentation-text a:hover {
+    text-decoration: underline;  /* Subrayado solo cuando el cursor pase por encima */
+}
+
