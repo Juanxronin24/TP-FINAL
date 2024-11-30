@@ -65,48 +65,80 @@ footer {
 .titulo-secundario {
     font-size: 3em;
     text-shadow: 0 0 10px #00ffcc, 0 0 20px #ff007f;
-    
+
 
 }
 
+.Titulo-nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+
+
+
+
+
 .presentation-text {
     font-family: 'Arial', sans-serif;
-    font-size: 1.1rem;  /* Un tamaño de fuente adecuado para la lectura */
-    line-height: 1.8;  /* Espaciado entre líneas para mejorar la legibilidad */
-    color: #333333;  /* Color oscuro para el texto */
-    text-align: justify;  /* Alineación justificada para un formato limpio */
-    margin: 20px auto;  /* Márgenes superiores e inferiores */
-    padding: 15px;  /* Espaciado interno */
-    background-color: #f4f4f4;  /* Fondo suave para un contraste suave con el texto */
-    border-radius: 8px;  /* Bordes redondeados */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  /* Sombra sutil para darle profundidad */
-    max-width: 900px;  /* Ancho máximo para evitar que el texto se extienda demasiado */
+    font-size: 1.1rem;
+    /* Un tamaño de fuente adecuado para la lectura */
+    line-height: 1.8;
+    /* Espaciado entre líneas para mejorar la legibilidad */
+    color: #333333;
+    /* Color oscuro para el texto */
+    text-align: justify;
+    /* Alineación justificada para un formato limpio */
+    margin: 20px auto;
+    /* Márgenes superiores e inferiores */
+    padding: 15px;
+    /* Espaciado interno */
+    background-color: #f4f4f4;
+    /* Fondo suave para un contraste suave con el texto */
+    border-radius: 8px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* Sombra sutil para darle profundidad */
+    max-width: 900px;
+    /* Ancho máximo para evitar que el texto se extienda demasiado */
     font-weight: 400;
 }
 
 .presentation-text b {
-    color: #1d8c8c;  /* Resaltar en verde azulado las palabras clave */
-    font-weight: 600;  /* Hacer negrita para las partes más importantes */
+    color: #1d8c8c;
+    /* Resaltar en verde azulado las palabras clave */
+    font-weight: 600;
+    /* Hacer negrita para las partes más importantes */
 }
 
 .presentation-text i {
-    font-style: italic;  /* Italicas para enfatizar algunas ideas */
+    font-style: italic;
+    /* Italicas para enfatizar algunas ideas */
 }
 
 .presentation-text a {
-    color: #0066cc;  /* Color atractivo para enlaces */
-    text-decoration: none;  /* Quitar el subrayado por defecto */
-    font-weight: bold;  /* Destacar los enlaces */
+    color: #0066cc;
+    /* Color atractivo para enlaces */
+    text-decoration: none;
+    /* Quitar el subrayado por defecto */
+    font-weight: bold;
+    /* Destacar los enlaces */
 }
 
 .presentation-text a:hover {
-    text-decoration: underline;  /* Subrayado solo cuando el cursor pase por encima */
+    text-decoration: underline;
+    /* Subrayado solo cuando el cursor pase por encima */
 }
 
 
 footer {
-    background-color: #333333;  /* Fondo oscuro para el footer */
-    color: #fff;  /* Texto blanco para el contraste */
+    background-color: #333333;
+    /* Fondo oscuro para el footer */
+    color: #fff;
+    /* Texto blanco para el contraste */
     padding: 40px 20px;
     font-family: 'Arial', sans-serif;
 }
@@ -125,7 +157,8 @@ footer {
     margin-bottom: 20px;
     text-align: center;
     width: 100%;
-    color: #1d8c8c;  /* Color llamativo para el título */
+    color: #1d8c8c;
+    /* Color llamativo para el título */
 }
 
 .social-links {
@@ -141,7 +174,8 @@ footer {
 
 .social-links a {
     color: #fff;
-    font-size: 1.5rem;  /* Tamaño grande para los iconos */
+    font-size: 1.5rem;
+    /* Tamaño grande para los iconos */
     text-decoration: none;
     display: flex;
     align-items: center;
@@ -149,24 +183,30 @@ footer {
 }
 
 .social-links a i {
-    margin-right: 8px;  /* Espaciado entre el icono y el texto */
+    margin-right: 8px;
+    /* Espaciado entre el icono y el texto */
 }
 
 .social-links a:hover {
-    color: #1d8c8c;  /* Cambio de color al pasar el ratón */
-    transform: translateY(-5px);  /* Efecto sutil de movimiento */
+    color: #1d8c8c;
+    /* Cambio de color al pasar el ratón */
+    transform: translateY(-5px);
+    /* Efecto sutil de movimiento */
 }
 
 .social-icon {
     border-radius: 50%;
     padding: 12px;
-    background-color: #444444;  /* Fondo gris oscuro para los iconos */
+    background-color: #444444;
+    /* Fondo gris oscuro para los iconos */
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .social-icon:hover {
-    background-color: #1d8c8c;  /* Fondo resaltado en hover */
-    transform: scale(1.1);  /* Efecto de agrandar el icono */
+    background-color: #1d8c8c;
+    /* Fondo resaltado en hover */
+    transform: scale(1.1);
+    /* Efecto de agrandar el icono */
 }
 
 .footer-info {
@@ -179,9 +219,21 @@ footer {
     margin: 0;
 }
 
-.contacto{
+.contacto {
     font-size: 3em;
     text-shadow: 0 0 10px #00ffcc, 0 0 20px #ff007f;
+    ;
+
+
+
+}
+
+.Titulo-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
 
 
 }
