@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(194, 190, 186);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0%;
+}
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box; /* Asegura que el padding no afecte el tamaño total */
+}
+
+.form-container input,
+.form-container textarea {
+    width: 100%; /* Hace que los campos de texto usen todo el ancho disponible */
+    box-sizing: border-box; /* Incluye padding y border en el cálculo del tamaño total */
+    padding: 10px; /* Ajusta el padding si es necesario */
+    margin: 5px 0; /* Agrega espacio entre los campos */
+    border: 1px solid #ccc; /* Establece un borde */
+    border-radius: 4px; /* Borde redondeado */
+}
+
+.form-container textarea {
+    resize: vertical; /* Permite que el textarea se pueda redimensionar verticalmente */
+}
+
+
+
+h2 {
+    text-align: center;
+}
+
+/* Estilo de las etiquetas */
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Estilo de los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo del botón */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo de los mensajes de error */
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: -8px;
+}
+
+/* Estilo del mensaje de éxito */
+.success {
+    color: green;
+    font-size: 14px;
+    text-align: center;
+}
