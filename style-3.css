@@ -49,9 +49,12 @@ header {
 
 
 .grid-item img {
-    max-width: 100%; /* Asegurar que la imagen no exceda el contenedor */
-    height: auto; /* Mantener la relación de aspecto de la imagen */
-    border-radius: 5px; /* Esquinas redondeadas para la imagen */
+    max-width: 100%;
+    /* Asegurar que la imagen no exceda el contenedor */
+    height: auto;
+    /* Mantener la relación de aspecto de la imagen */
+    border-radius: 5px;
+    /* Esquinas redondeadas para la imagen */
 }
 
 
@@ -134,7 +137,7 @@ footer {
 
 }
 
-.Memorias-ram:hover{
+.Memorias-ram:hover {
 
     transform: scale(1.05);
     /* Efecto de escala al pasar el ratón */
@@ -145,7 +148,7 @@ footer {
 
 }
 
-.Memorias-ram:hover::before{
+.Memorias-ram:hover::before {
 
 
     opacity: 0, 2;
@@ -157,45 +160,63 @@ footer {
 .payment-methods {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrar los íconos */
-    margin-top: 20px; /* Espacio superior */
+    align-items: center;
+    /* Centrar los íconos */
+    margin-top: 20px;
+    /* Espacio superior */
 }
 
 .payment-methods img {
-    width: 50px; /* Ajusta el tamaño según sea necesario */
-    margin: 5px; /* Espacio entre íconos */
+    width: 50px;
+    /* Ajusta el tamaño según sea necesario */
+    margin: 5px;
+    /* Espacio entre íconos */
 }
 
 .payment-methods h2 {
-    font-size: 1.5em; /* Tamaño de fuente del título */
-    margin-bottom: 10px; /* Espacio inferior */
-    color: #ff4081; /* Color llamativo para el título */
+    font-size: 1.5em;
+    /* Tamaño de fuente del título */
+    margin-bottom: 10px;
+    /* Espacio inferior */
+    color: #ff4081;
+    /* Color llamativo para el título */
 }
 
 
 
 .back-button {
-    display: inline-block; /* Hacer que el enlace se comporte como un bloque */
-    padding: 12px 24px; /* Espaciado interno del botón */
-    background-color: #4CAF50; /* Color de fondo verde */
-    color: white; /* Color de texto blanco */
-    font-size: 16px; /* Tamaño de la fuente */
-    text-decoration: none; /* Quitar el subrayado del enlace */
-    border-radius: 5px; /* Bordes redondeados */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    transition: background-color 0.3s, transform 0.3s; /* Efecto de transición suave */
+    display: inline-block;
+    /* Hacer que el enlace se comporte como un bloque */
+    padding: 12px 24px;
+    /* Espaciado interno del botón */
+    background-color: #4CAF50;
+    /* Color de fondo verde */
+    color: white;
+    /* Color de texto blanco */
+    font-size: 16px;
+    /* Tamaño de la fuente */
+    text-decoration: none;
+    /* Quitar el subrayado del enlace */
+    border-radius: 5px;
+    /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Sombra suave */
+    transition: background-color 0.3s, transform 0.3s;
+    /* Efecto de transición suave */
 }
 
 /* Estilo al pasar el ratón (hover) */
 .back-button:hover {
-    background-color: #45a049; /* Cambiar a un verde más oscuro */
-    transform: translateY(-2px); /* Desplazamiento hacia arriba para un efecto de elevación */
+    background-color: #45a049;
+    /* Cambiar a un verde más oscuro */
+    transform: translateY(-2px);
+    /* Desplazamiento hacia arriba para un efecto de elevación */
 }
 
 /* Estilo al hacer clic (active) */
 .back-button:active {
-    background-color: #388e3c; 
-    transform: translateY(0); 
+    background-color: #388e3c;
+    transform: translateY(0);
 }
 
 
@@ -224,7 +245,8 @@ footer {
 
 
 }
-.Volver:hover{
+
+.Volver:hover {
     background-color: #45a049;
     /* Cambiar a un verde más oscuro */
     transform: translateY(-2px);
@@ -234,7 +256,47 @@ footer {
 
 }
 
-.Volver:active{
+.Volver:active {
     background-color: #388e3c;
     transform: translateY(0);
-    }
+}
+h2{
+    text-align: center;
+}
+table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Estilo para las celdas del encabezado */
+  th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px;  /* Aquí se establece el espacio dentro de las celdas del encabezado */
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  /* Estilo para las celdas del cuerpo */
+  td {
+    padding: 5px;  /* Aquí se establece el espacio dentro de las celdas del cuerpo */
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilo para las filas alternas del cuerpo */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilo para la fila al pasar el mouse */
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Estilo para la tabla al pasar el mouse por encima */
+  table {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
