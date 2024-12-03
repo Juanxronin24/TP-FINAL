@@ -253,14 +253,17 @@ h2 {
 
 }
 
-.boton-formulario{
+.boton-formulario {
     text-align: center;
 }
 
-.experiencia{
+.experiencia {
     font-size: 3em;
     text-shadow: 0 0 10px #00ffcc, 0 0 20px #ff007f;
 
 
 
 }
+.svg-container {
+    text-align: center;
+  }
